@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form | Your College Name</title>
+    <link rel="stylesheet" href="Asset/css/apply.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-1">
+                <div class="nav-add">
+                    <span>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#">+(91) 87456-78890</a>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#">admin@sharda.com</a>
+                    </span>
+                </div>
+                <div class="nav-icon">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="nav-2">
+                <img src="Asset/image/logo.pnj.png" alt="Logo" class="logo">
+                <div class="nav-right">
+                    <a href="index.html">HOME</a>
+                    <a href="course.html">COURSE</a>
+                    <a href="about_us.html">ABOUT US</a>
+                    <a href="contact_us.html">CONTACT US</a>
+                    <a href="gallery.html">GALLERY</a>
+                    <a href="user.html">LOGIN</a>
+                    <a href="admission.html">Addmission</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Admission Form</h1>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Educational Information</legend>
+                <div class="form-group">
+                    <label for="previous_degree">Previous Degree:</label>
+                    <input type="text" id="previous_degree" name="previous_degree" required>
+                </div>
+                <div class="form-group">
+                    <label for="percentage">Percentage/CGPA:</label>
+                    <input type="text" id="percentage" name="percentage" required>
+                </div>
+                <div class="form-group">
+                    <label for="passing_year">Year of Passing:</label>
+                    <input type="text" id="passing_year" name="passing_year" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div class="form-group">
+                    <label for="course_interest">Course Interested In:</label>
+                    <select id="course_interest" name="course_interest" required>
+                        <option value="">Select Course</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="MBA">MBA</option>
+                        <option value="B.Sc">B.Sc</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="btn">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
